@@ -27,7 +27,7 @@ import os
 app = Flask(__name__)
 
 root_dir = 'docs'
-default_file = 'welcome.html'
+default_file = 'index.html'
 
 @app.route('/')
 def root():
