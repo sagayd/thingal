@@ -1,0 +1,105 @@
+/* ==========================
+   Global Layout Styles
+   ========================== */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background: #f8f9fa;
+    padding: 50px 20px;
+    margin-right: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #343a40;
+}
+
+/* Box Model Shadow Layout */
+.box-model {
+    flex-direction: row;
+    box-shadow: 0 7px 10px;
+}
+
+/* Image Style: Family Photo */
+.family-photo {
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.family-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+/* Center Align Sections */
+.card {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Map Embed */
+.map-embed iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Download Link Spacing */
+.downloads p {
+    margin: 8px 0;
+}
+
+/* Remove hardcoded px-4 override */
+.px-4 {
+    padding-left: 1rem !important;
+}
+
+/* Mobile Menu Button */
+#mobile-toggle {
+    background: none;
+    border: 0;
+    font-size: 20px;
+}
+
+/* Bottom Navigation Center Alignment */
+.nav-inner-bottom {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.bottom-nav-tamil a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.invitation-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.invitation-header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.invitation-header p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.responsive-img {
+    width: 80%;          /* reduce size a bit */
+    max-width: 350px;    /* never grow too big on large screens */
+    height: auto;        /* keep aspect ratio */
+    display: block;
+    margin: 20px auto;   /* center on all screens */
+    border-radius: 12px; /* optional – gives a soft rounded corner */
+}

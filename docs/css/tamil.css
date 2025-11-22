@@ -1,0 +1,16 @@
+/* tamil.css - tamil specific styles and font fallback */
+@font-face{
+  font-family: 'NotoTamilLocal';
+  src: local('Noto Sans Tamil'), local('Latha'), local('Valluvar');
+}
+body{font-family: 'NotoTamilLocal', 'Latha', 'Noto Sans Tamil', sans-serif}
+h1{font-size:26px}
+
+footer.footer-nav{background:#ffffff; border-bottom:1px solid #e6e6e6; position:sticky; top:0; z-index:50}
+footer .nav-inner-bottom{display:flex; align-items:center; justify-content:space-between; max-width:var(--max-width); margin:0 auto; padding:10px 120px}
+.brand{display:flex; align-items:center; gap:10px}
+.brand img{width:44px; height:44px; object-fit:cover; border-radius:6px}
+.brand .brand-text{font-weight:700; text-decoration:none; color:inherit}
+nav.bottom-nav-tamil{display:flex; gap:12px; align-items:center}
+nav.bottom-nav-tamil a{padding:8px 10px; text-decoration:none; color:inherit; border-radius:6px}
+nav.bottom-nav-tamil a:hover{background:rgba(0,0,0,0.04)}
